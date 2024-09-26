@@ -13,4 +13,26 @@ h3{
 }
 .teacher-info{
     text-transform:capitalize;background-color: blue;
+    box-shadow: 5px 5px 20px 5px black;
+}
+#intro,header {
+    text-align: center;
+}
+.main-section-content h2{
+    border: 5px solid black;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 90px;
+}
+#bestsellers h2{
+    border: 5px solid black;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 90px;
+}
+nav li{
+    margin:20px;
+    padding :10px;
+    border: 7px solid blue;
+    border: radius 90px;
 }
