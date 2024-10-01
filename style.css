@@ -14,6 +14,7 @@ h3{
 .teacher-info{
     text-transform:capitalize;background-color: blue;
     box-shadow: 5px 5px 20px 5px black;
+    opacity: 0.8;
 }
 #intro,header {
     text-align: center;
@@ -36,3 +37,25 @@ nav li{
     border: 7px solid blue;
     border: radius 90px;
 }
+ button{
+    background-color: rgb(226, 43, 61);
+    color: rgb(16, 17, 17);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 50px;
+    border: 4px solid black;
+    
+ }
+ nav{
+    position:sticky;
+    top:0;
+    background-color: rgb(231, 12, 12) ;
+ }
+ #book-reviews p,
+ #book-reviews h3{
+   position: relative; 
+   left: 10%;
+ }
