@@ -59,3 +59,22 @@ nav li{
    position: relative; 
    left: 10%;
  }
+ header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ }
+ nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ nav ul{
+    display: flex;
+    justify-content: space-between;
+ }
+ #teachers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
