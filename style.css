@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(13, 207, 49);
     color: red;
@@ -18,6 +19,7 @@ h3{
 }
 #intro,header {
     text-align: center;
+    border: 3px solid black;
 }
 .main-section-content h2{
     border: 5px solid black;
@@ -78,3 +80,33 @@ nav li{
     align-items: center;
     justify-content: center;
  }
+ header{
+    grid-area: header;
+ }
+ nav{
+    grid-area: nav;
+ }
+ #intro{
+    grid-area: intro;
+ }
+ #main-section{
+    grid-area: m-s;
+    border: 3px solid black;
+ }
+ #bestsellers{
+    grid-area: bs;
+    border: 3px solid black;
+ }
+ footer{
+    grid-area: footer;
+ }
+ .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-areas: 
+    'header header header header header '
+    'nav nav nav nav intro'
+    'm-s m-s m-s m-s bs'
+    'footer footer footer footer footer'
+ }
+ 
